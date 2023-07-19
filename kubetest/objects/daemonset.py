@@ -32,7 +32,6 @@ class DaemonSet(ApiObject):
     api_clients = {
         "preferred": client.AppsV1Api,
         "apps/v1": client.AppsV1Api,
-        "apps/v1beta1": client.AppsV1beta1Api,
         "apps/v1beta2": client.AppsV1beta2Api,
     }
 
